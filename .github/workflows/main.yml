@@ -14,7 +14,7 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         port: 22
         script: 
-          cd test.thubongstore.online
+          cd test.thubongstore.online &&
           git pull origin main
           
                 
